@@ -1,0 +1,14 @@
+.portfolioList {
+    font-size: 1rem;
+    margin: 0 10px;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .portfolioList:hover {
+    background-color:rgba(0,0,0,0.2);
+  }
+  .portfolioList.active {
+    background-color:var(--color-primary-variant);
+    box-shadow: rgba(0, 0, 0, 0.51) 0px 2px 4px;
+  }

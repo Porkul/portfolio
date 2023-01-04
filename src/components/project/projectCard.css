@@ -1,0 +1,140 @@
+.p {
+    width: 30%;
+    height: 40vh;
+    margin: 20px 10px;
+    border: 2px solid var(--color-white);
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .p-browser {
+    height: 20px;
+    background-color: var(--color-white);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+  }
+  
+  .p-circle {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+  }
+  
+  .p-img {
+    width: 100%;
+    transition: all 10s ease;
+  }
+  
+  .p:hover .p-img {
+    transform: translateY(-100%);
+  }
+  
+/*------------popup--------*/
+
+/*------------popup--------*/
+body.active-modal {
+    overflow-y: hidden;
+  }
+  
+  .btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+  }
+  
+  .modal,
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 9999;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .modal-content {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    line-height: 1.4;
+    border-radius: 1rem;
+    max-width: 85%;
+    min-width: 60%;
+    color:#333;
+    background-color: var(--color-white);
+    z-index: 9999;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .modal-text {
+    text-align: center;
+    padding: 2rem 1rem 0 1rem;
+  }
+  .modal-text h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  .modal-text p {
+    font-size: 18px;
+  }
+  .modal-text button.close-modal i {
+    margin: 0;
+  }
+  .button{
+    margin-top: 2.1rem;
+  }
+  .btn__close{
+    width: 2rem;
+    height: 2rem;
+    color: #333;
+    position: absolute;
+    top: 16px;
+    right:16px;
+    cursor: pointer;
+}
+  .btn__close:hover{
+    color:black;
+  }
+  .left,
+  .right {
+    width: 50%;
+  }
+
+  /*------------popup--------*/
+  @media (max-width: 768px) {
+    .modal,
+    .overlay {
+      overflow: scroll;
+    }
+  
+    .modal .modal-img {
+      margin: 50px 0 50px 0;
+    }
+    .modal-content {
+      flex-direction: column;
+      top: 4%;
+    }
+    .left,
+    .right {
+      width: 100%;
+    }
+    .modal .right,
+    .modal .left {
+      padding: 0;
+    }
+  }
