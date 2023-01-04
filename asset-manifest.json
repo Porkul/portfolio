@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ba4ea44d.css",
+    "main.js": "/portfolio/static/js/main.2f189c1e.js",
+    "static/media/resume_katrin-porkul.pdf": "/portfolio/static/media/resume_katrin-porkul.7d1ff62b8a5d37e50ac3.pdf",
+    "static/media/my.png": "/portfolio/static/media/my.aa4e606c2244af227102.png",
+    "index.html": "/portfolio/index.html",
+    "main.ba4ea44d.css.map": "/portfolio/static/css/main.ba4ea44d.css.map",
+    "main.2f189c1e.js.map": "/portfolio/static/js/main.2f189c1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba4ea44d.css",
+    "static/js/main.2f189c1e.js"
+  ]
+}
