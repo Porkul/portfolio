@@ -16,7 +16,7 @@ export default function Portfolio() {
   const list = [
     {
       id: "web",
-      title: "Web App",
+      title: "Apps",
     },
     {
       id: "frontend",

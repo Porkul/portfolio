@@ -53,11 +53,11 @@ export const frontEndPortfolio = [
 export const webPortfolio = [
   {
     id: 1,
-    title: "YelpCamp",
-    description: "YelpCamp is a campground reviewing website, created for  web dev course taught by Colt Steele.",
+    title: "Personal Expenses App",
+    description: "Personal Expenses App tracker build with Flutter.",
     tools: "Node.js, Express.js, MapBox API, MongoDB, Heroku.",
-    img:"https://res.cloudinary.com/dwytuak9e/image/upload/v1648320660/portfolio/Untitled_design_12_sktgph.png",
-    link: "https://calm-ravine-69048.herokuapp.com/"
+    img:"https://res.cloudinary.com/dwytuak9e/image/upload/v1680733860/Nimetu_kujundus_qznuga.png",
+    link: "https://github.com/Porkul/personal_expenses_app"
   },
   {
     id: 2,
